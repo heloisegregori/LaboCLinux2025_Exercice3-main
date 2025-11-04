@@ -8,8 +8,8 @@ int main(int argc,char*argv[])
 {
   if (argc != 2) 
   {
-	  printf("Erreur: Trop ou trop peu d\'argument(s)...\n");
-	  exit(1);
+    printf("Erreur: Trop ou trop peu d\'argument(s)...\n");
+    exit(1);
   }
 
   fprintf(stderr,"Lecture pour le groupe %s\n",argv[1]);

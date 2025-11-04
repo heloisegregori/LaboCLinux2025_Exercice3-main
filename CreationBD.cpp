@@ -61,8 +61,8 @@ int main(int argc,char *argv[])
   char requete[256];
   for (int i=0 ; i<30 ; i++)
   {
-	  sprintf(requete,"insert into UNIX_EX3 values (NULL,'%s','%s');",Elm[i].nom,Elm[i].groupe);
-	  mysql_query(connexion,requete);
+    sprintf(requete,"insert into UNIX_EX3 values (NULL,'%s','%s');",Elm[i].nom,Elm[i].groupe);
+    mysql_query(connexion,requete);
   }
 
   // Deconnection de la BD

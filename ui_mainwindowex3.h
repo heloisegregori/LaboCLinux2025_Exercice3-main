@@ -139,7 +139,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindowEx3)
     {
-        MainWindowEx3->setWindowTitle(QApplication::translate("MainWindowEx3", "CLINUX_Exercice3", nullptr));
+        MainWindowEx3->setWindowTitle(QApplication::translate("MainWindowEx3", "UNIX_Exercice3", nullptr));
         label->setText(QApplication::translate("MainWindowEx3", "<html><head/><body><p><span style=\" font-weight:600; color:#204a87;\">Recherche 1 :</span></p></body></html>", nullptr));
         label_2->setText(QApplication::translate("MainWindowEx3", "Groupe :", nullptr));
         label_3->setText(QApplication::translate("MainWindowEx3", "Nombre d'\303\251tudiants :", nullptr));
