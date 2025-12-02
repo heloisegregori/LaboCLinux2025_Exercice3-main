@@ -1,3 +1,4 @@
+
 CLINUX_Exercice3: main.o mainwindowex3.o moc_mainwindowex3.o CreationBD Lecture
 	g++ -o CLINUX_Exercice3 main.o mainwindowex3.o moc_mainwindowex3.o   /usr/lib64/libQt5Widgets.so /usr/lib64/libQt5Gui.so /usr/lib64/libQt5Core.so /usr/lib64/libGL.so -lpthread
 main.o: main.cpp
